@@ -5,15 +5,21 @@ public class Room {
     private ArrayList<Course> courses;
     private ArrayList<Days> days;
 
-    public Room(String number, ArrayList<Course> courses, ArrayList<Days> days){
+    public Room(String number, ArrayList<Course> courses, ArrayList<Days> days) {
         this.number = number;
         this.courses = courses;
         this.days = days;
     }
 
-    public String getNumber() { return number; }
-    
-    public ArrayList<Course> getCourses() { return courses; }
+    public String getNumber() {
+        return number;
+    }
 
-    public ArrayList<Days> getDays(){ return days; }
+    public ArrayList<Course> getCourses() {
+        return courses;
+    }
+
+    public ArrayList<Days> getDays() {
+        return days;
+    }
 }

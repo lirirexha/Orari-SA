@@ -4,15 +4,22 @@ public class Days {
     private String id;
     private String day;
     private ArrayList<MeetingTime> meetingTimes;
-    public Days(String id, String day, ArrayList<MeetingTime> meetingTimes){
+
+    public Days(String id, String day, ArrayList<MeetingTime> meetingTimes) {
         this.id = id;
-        this.day= day;
+        this.day = day;
         this.meetingTimes = meetingTimes;
     }
 
-    public String getId(){ return id; }
+    public String getId() {
+        return id;
+    }
 
-    public String getDay(){ return day;}
+    public String getDay() {
+        return day;
+    }
 
-    public ArrayList<MeetingTime> getMeetingTimes(){ return meetingTimes; }
+    public ArrayList<MeetingTime> getMeetingTimes() {
+        return meetingTimes;
+    }
 }

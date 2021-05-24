@@ -7,18 +7,26 @@ public class Course {
     private String name = null;
     private Instructor instructor;
 
-    public Course(String number, String name, Instructor instructor){
+    public Course(String number, String name, Instructor instructor) {
         this.number = number;
         this.name = name;
         this.instructor = instructor;
-       
+
     }
 
-    public String getNumber(){ return number; }
+    public String getNumber() {
+        return number;
+    }
 
-    public String getName(){ return name; }
+    public String getName() {
+        return name;
+    }
 
-    public Instructor getInstructor(){ return instructor; }
+    public Instructor getInstructor() {
+        return instructor;
+    }
 
-    public String toString(){return name;}
+    public String toString() {
+        return name;
+    }
 }

@@ -8,10 +8,10 @@ public class Instructor {
     private ArrayList<Room> rooms;
     private ArrayList<Days> days;
     private ArrayList<MeetingTime> meetingTimes;
-    private int numPerClass; 
+    private int numPerClass;
 
-    public Instructor(String id, String name, int totalNum, int numPerClass, boolean blockH, 
-                        ArrayList<Room> rooms, ArrayList<Days> days, ArrayList<MeetingTime> meetingTimes){
+    public Instructor(String id, String name, int totalNum, int numPerClass, boolean blockH, ArrayList<Room> rooms,
+            ArrayList<Days> days, ArrayList<MeetingTime> meetingTimes) {
         this.id = id;
         this.name = name;
         this.totalNum = totalNum;
@@ -22,18 +22,40 @@ public class Instructor {
         this.meetingTimes = meetingTimes;
     }
 
-    public String getId(){ return id; }
+    public String getId() {
+        return id;
+    }
 
-    public String getName() { return name; }
-    public int getTotalNum(){ return totalNum; }
-    public int getNumPerClass(){ return numPerClass;}
+    public String getName() {
+        return name;
+    }
 
-    public boolean getBlockH(){ return blockH; }
+    public int getTotalNum() {
+        return totalNum;
+    }
 
-    public ArrayList<Room> getRooms(){ return rooms; }
-    public ArrayList<Days> getDays(){ return days; }
-    public ArrayList<MeetingTime> getMeetingTimes(){ return meetingTimes; }
+    public int getNumPerClass() {
+        return numPerClass;
+    }
 
-    public String toString() { return name; }
-    
+    public boolean getBlockH() {
+        return blockH;
+    }
+
+    public ArrayList<Room> getRooms() {
+        return rooms;
+    }
+
+    public ArrayList<Days> getDays() {
+        return days;
+    }
+
+    public ArrayList<MeetingTime> getMeetingTimes() {
+        return meetingTimes;
+    }
+
+    public String toString() {
+        return name;
+    }
+
 }
